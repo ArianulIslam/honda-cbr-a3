@@ -1,0 +1,160 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300:400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap');
+
+:root{
+    --darkslate-gray: #264653;
+    --orange: #E76F51; 
+}
+
+body{
+ font-family: Poppins;
+ color: #E0E0E0;
+ font-weight: 300;
+ font-size: 16px;
+}
+
+.bg-darkslategray{
+    background-color:var(--darkslate-gray) ;
+}
+
+.btn-orange{
+    background-color: var(--orange) ;
+    color: white;
+    padding: 15px 40px;
+} 
+
+.btn-orange:hover{
+    border: 1px solid var(--orange) ;
+    background-color: white;
+    color: var(--orange) ;
+} 
+  
+ 
+.text-orange{
+    color: var(--orange);
+}
+.nav-link{
+    color: white!important;
+}
+
+.logo{
+    font-weight: 600;  
+}
+
+.heading-1{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 50px;
+    color: #0A0826;
+}
+
+.sub-header{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height:  0px;
+}
+
+.hero-section{
+    height: 698px;
+}
+
+.img-grayscale {
+    filter: grayscale(100%);
+  }
+
+.img-grayscale:hover{
+    filter: none;
+}
+.news-text{
+    color: #6C6C6C;
+}
+.news-btn{
+    border: 1px solid var(--orange) ;
+    background-color: white;
+    color: var(--orange) ;
+  
+}
+
+.news-btn:hover{
+    background-color: var(--orange) ;
+    color: white;
+}
+.text-clients-msg{
+    color:#6C6C6C;
+}
+.card-img-area{
+    padding: 30px 65px;
+}
+.star-icon{
+    color: gold;
+    width: 25px;
+    height: 25px;
+}
+.clients-name{
+    color: #23A6F0;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+}
+.clients-designation{
+    color: #252B42;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+}
+.faq-title{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    color: #383838;  
+}
+.faq-text{
+  color: #7E848C;  
+  font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 28px;
+}
+.faq-img{
+   padding: 30px; 
+}
+.faq-item{
+    margin: 15px 5px;
+    border-top: 1px solid #D5E5FB;
+    box-sizing: border-box;
+}
+.subscribe-section{
+    height: 280px;
+}
+.subscribe-form-input{
+    height: 60px;
+    border: 1px solid var(--orange) ;
+}
+
+.subscribe-form-input:focus{
+    border: 1px solid var(--orange) ;
+    
+}
+.footer-section{
+    
+    background-color: #0B0D17;
+    margin: 0px;
+}
+ 
+.copyright-text{
+    color: #D9DBE1;
+    font-size: 14px;
+    line-height: 24px;
+    padding-left: 3rem;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin-bottom: 0px;
+}
